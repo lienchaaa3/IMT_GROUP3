@@ -1,0 +1,25 @@
+{3 items
+"location":{6 items
+"long":-95.712891
+"countryOrRegion":"United States"
+"provinceOrState":NULL
+"county":NULL
+"isoCode":"US"
+"lat":37.09024
+}
+"updatedDateTime":"2020-12-30T17:00:57.9300895Z"
+"stats":{8 items
+"totalConfirmedCases":19504061
+"newlyConfirmedCases":22070
+"totalDeaths":348842
+"newDeaths":474
+"totalRecoveredCases":2796278
+"newlyRecoveredCases":0
+"history":344 items
+[0 - 100]
+[100 - 200]
+[200 - 300]
+[300 - 344]
+"breakdowns":[...]62 items
+}
+}
