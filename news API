@@ -1,0 +1,8 @@
+HttpRequest request = HttpRequest.newBuilder()
+		.uri(URI.create("https://gabriel-cian-email-finder-v1.p.rapidapi.com/find-mail?api_key=kpIkHp5bk8gTrXx2MKx8&firstname=Liene&lastname=Laure&domain=group_3"))
+		.header("x-rapidapi-key", "93297eb315mshec1ac819632313ep19021djsn131bd398cea6")
+		.header("x-rapidapi-host", "gabriel-cian-email-finder-v1.p.rapidapi.com")
+		.method("GET", HttpRequest.BodyPublishers.noBody())
+		.build();
+HttpResponse<String> response = HttpClient.newHttpClient().send(request, HttpResponse.BodyHandlers.ofString());
+System.out.println(response.body());
